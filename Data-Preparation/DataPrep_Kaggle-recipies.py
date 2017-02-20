@@ -13,6 +13,9 @@ train_old = dataframe.copy()
 dataframe = dataframe.drop(['skin',], axis=1)  
 #dataframe.head(10)
 
+#Are there any columns missing values?
+dataframe.isnull().any()
+
 
 
 
